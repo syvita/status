@@ -16,7 +16,7 @@ settings:
 
 monitors:
   - id: mainnet-syvita # unique identifier
-    name: mainnet.syvita.org
+    name: Mainnet API
     description: 'Global Stacks mainnet API nodes' # default=empty
     url: 'https://mainnet.syvita.org/extended/v1/status' # URL to fetch
     method: GET # default=GET
@@ -24,7 +24,7 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
 
   - id: syvita-org
-    name: syvita.org
+    name: Syvita Home
     description: 'Welcome to the Guild!'
     url: 'https://syvita.org'
     method: GET
