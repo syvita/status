@@ -35,3 +35,8 @@ monitors:
     url: 'https://explorer.syvita.org'
     method: GET
     expectStatus: 200
+  - id: synapse
+    name: Synapse
+    url: 'https://synapse.syvita.org'
+    expectStatus: 200
+    followRedirect: true
